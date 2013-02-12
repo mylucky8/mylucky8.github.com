@@ -1,43 +1,48 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <META name="apple-mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
-  <title> - 현대무용단 </title>
-  <script>
-  window.addEventListener('load', function() {
-  	setTimeout(scrollTo, 0, 0, 1);
-  }, false);
-  </script>
-  <style>
-  	body{margin:0; padding:0}
-  	*{margin:0; padding:0}
-  	img{padding:0; margin:0; border:0;}
-  	/* 레이아웃 큰박스 속성 */
-  	#wrap {width:100%; auto;}
-  	#4box_big {width:100%;  float:left;}
-  	#box_01 {width:25%;  float:left;}
-  	#box_02 {width:25%;  float:left;}
-  	#box_03 {width:25%;  float:left;}
-  	#box_04 {width:25%;  float:left;}
-  	#contants {width:100%; float:left;}
-  </style>
-</head>
-<body>
-<div id="wrap">
-
-<div id="4box_big">
-<div id="box_01"><a href="https://www.facebook.com/KNCDC" alt="facebook"   target="_blank" /><img src="./images/kncdc/img_01.jpg" width="100%" border="0"></a></div>
-<div id="box_02"><a href="https://twitter.com/#!/KNCDC"   alt="twitter"    target="_blank" /><img src="./images/kncdc/img_02.jpg" width="100%" border="0"></a></div>
-<div id="box_03"><a href="http://cafe.naver.com/kncdc"    alt="naver blog" target="_blank" /><img src="./images/kncdc/img_03.jpg" width="100%" border="0"></a></div>
-<div id="box_04"><a href="http://www.hanpac.or.kr/hanpac/program.do?tran=play_info_view&playNo=121025153903779" alt="Reservation" target="_blank" /><img src="./images/kncdc/img_04.jpg" width="100%" border="0"></a></div>
-</div>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
   
-<div id="contants">
-<img src="./images/kncdc/img_06.jpg" width="100%" border="0">
-</div>
-
-
-</div></body>
+  <title> - 현대무용단 </title>
+  
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  
+  <script>
+    function init() {
+  	setTimeout(scrollTo, 0, 0, 1);
+     }
+  </script>
+  
+</head>
+<body onload="init()">
+  <div class="body">
+    <div class="bannerlist">
+       <div class="bannerbox">
+         <a href="https://www.facebook.com/KNCDC" alt="facebook"   target="_blank">
+           <img src="./images/kncdc/img_01.jpg" width="100%" border="0"/>
+         </a>
+       </div>
+       <div class="bannerbox">
+         <a href="https://twitter.com/#!/KNCDC"   alt="twitter"    target="_blank">
+           <img src="./images/kncdc/img_02.jpg" width="100%" border="0"/>
+         </a>
+       </div>
+       <div class="bannerbox">
+         <a href="http://cafe.naver.com/kncdc"    alt="naver blog" target="_blank">
+           <img src="./images/kncdc/img_03.jpg" width="100%" border="0"/>
+         </a>
+       </div>
+       <div class="bannerbox">
+         <a href="http://www.hanpac.or.kr/hanpac/program.do?tran=play_info_view&playNo=121025153903779" alt="Reservation" target="_blank">
+           <img src="./images/kncdc/img_04.jpg" width="100%" border="0"/>
+         </a>
+       </div>
+     </div><!-- end of banner list-->
+     <div id="contents">
+       <img src="./imgs/party.jpg" width="100%" border="0"/>
+     </div> <!-- end of contents -->
+   </div>
+</body>
 </html>
