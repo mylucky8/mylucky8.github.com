@@ -21,7 +21,7 @@
     <div class="bannerlist">
        <div class="bannerbox">
          <a href="http://bit.ly/158YMF2" alt="WriterAgency"   target="_blank">
-           <img src="./imgs/mobile_button.jpg" width="100%" border="0"/> </a>
+           <img src="./imgs/mobile_button.jpg" style=" width:100%;"border="0"/> </a>
 	   </div><!-- end of bannerbox-->
        <div id="contents">
            <img src="./imgs/mobileweb_bg.jpg" width="100%" border="0"/>
